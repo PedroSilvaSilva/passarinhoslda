@@ -1,0 +1,41 @@
+/* pagination.css */
+.pagination {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+.pagination li {
+    margin: 0 5px;
+}
+
+.pagination li a {
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: #333;
+    border-radius: 5px;
+    cursor: pointer;
+    /* Adicionando cursor pointer */
+}
+
+.pagination li a:hover {
+    background-color: #eee;
+}
+
+.pagination .active a {
+    background-color: #007bff;
+    color: white;
+    border-color: #007bff;
+}
+
+.pagination .break-me a {
+    cursor: default;
+}
+
+/* Estilos para o botão Comprar */
+.ComprarButton {
+    cursor: pointer;
+
+}
